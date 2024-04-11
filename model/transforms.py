@@ -69,7 +69,7 @@ def get_graph_drop_transform(drop_edge_p, drop_feat_p):
     transforms = list()
 
     # make copy of graph
-    #transforms.append(copy.deepcopy)
+    transforms.append(copy.copy)
 
     # drop edges
     if drop_edge_p > 0.:
